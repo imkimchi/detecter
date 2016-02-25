@@ -5,6 +5,7 @@ simplify download multiple files from url
 ```js
 var url = "http://boards.4chan.org/c/";
 var element = "a.fileThumb img";
+var path = "~/Desktop";
 
 muload(url, element, path);
 ```
