@@ -6,5 +6,5 @@ simplify download multiple files from url
 var url = "http://boards.4chan.org/c/";
 var element = "a.fileThumb img";
 
-muload(url, element);
+muload(url, element, path);
 ```
