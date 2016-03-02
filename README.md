@@ -1,10 +1,10 @@
 # imgcrawl (not supported yet)
 crawl image as a current web site
 
-#Installation
+##Installation
 ```npm install imgcrawl```
 
-## simple to use
+## Simple to use
 ```js
 var crawler = require('imgcrawl');
 
@@ -23,7 +23,7 @@ crawler.start(option, function(data, err){
 }
 ```
 
-#LICENSE
+##LICENSE
 The MIT License [(MIT)](https://github.com/imkimchi/muload/blob/master/LICENSE)
 Copyright (c) 2016 Philip Yoonshin
 
