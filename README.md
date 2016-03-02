@@ -1,16 +1,27 @@
-# muload (not completed yet)
-simplify download multiple files from url
-## freaking simple to use
-```js
-var url = "http://boards.4chan.org/c/";
-var element = "a.fileThumb img";
-var path = "~/Desktop";
-
-muload(url, element, path);
-```
+# imgcrawl (not supported yet)
+crawl image as a current web site
 
 #Installation
-```npm install muload```
+```npm install imgcrawl```
+
+## simple to use
+```js
+var crawler = require('imgcrawl');
+
+var option = {
+      url: "http://boards.4chan.org/c/",
+      element: "a.fileThumb img",
+      path: "~/Desktop"
+}
+
+crawler.start(option, function(data, err){
+  if(callBack.success){
+    console.log("image has been downloaded from %s", callBack.url);
+  } else {
+    console.log("image download failed [%s]", callBack.status);
+  }
+}
+```
 
 #LICENSE
 The MIT License [(MIT)](https://github.com/imkimchi/muload/blob/master/LICENSE)
