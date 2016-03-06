@@ -1,3 +1,16 @@
-node_modules
-npm-debug.log
+# Logs
+logs
+*.log
+npm-debug.log*
 .DS_Store
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+node_modules
