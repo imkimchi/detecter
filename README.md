@@ -1,12 +1,12 @@
-# imgcrawl (not supported yet)
-crawl image as a current web site
+# detecter (not supported yet)
+web alteration Detecter
 
 ##Installation
-```npm install imgcrawl```
+```npm install detecter```
 
 ## Simple to use
 ```js
-var crawler = require('imgcrawl');
+var detecter = require('detecter');
 
 var option = {
       url: "http://boards.4chan.org/c/",
@@ -14,14 +14,14 @@ var option = {
       path: "~/Desktop"
 }
 
-crawler.start(option, function(data, err){
-  if(callBack.success){
-    console.log("image has been downloaded from %s", callBack.url);
-  } else {
-    console.log("image download failed [%s]", callBack.status);
-  }
+detecter.start(option, function(data, err){
+      if(data){
+      }
 }
 ```
+
+### Callback
+
 
 ##LICENSE
 The MIT License [(MIT)](https://github.com/imkimchi/muload/blob/master/LICENSE)
