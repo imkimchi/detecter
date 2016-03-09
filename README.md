@@ -1,5 +1,5 @@
 # detecter (not supported yet)
-web alteration Detecter
+A node.js module for detect web alteration
 
 ##Installation
 ```npm install detecter```
